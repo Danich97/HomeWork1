@@ -4,12 +4,12 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Write the word");
+        Console.WriteLine("Write the word"); // Зчитування введеного користувачем слова та перетворення нижнього реєстру на верхній
         string word = Console.ReadLine()?.ToUpper();
 
-        string[] lines = new string[5];
+        string[] lines = new string[5]; // Масив для збереження рядків псевдографічного зображенн
 
-        for (int i = 0; i < word.Length; i++)
+        for (int i = 0; i < word.Length; i++)   // Формування псевдографічного зображення на основі введеного слова
         {
             switch (word[i])
             {
