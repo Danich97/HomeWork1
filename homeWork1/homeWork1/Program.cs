@@ -7,9 +7,6 @@ class Program
         Console.WriteLine("Write the word");
         string word = Console.ReadLine()?.ToUpper();
 
-        Console.WindowWidth = 120;
-        Console.BufferWidth = 120;
-
         string[] lines = new string[5];
 
         for (int i = 0; i < word.Length; i++)
